@@ -1,0 +1,79 @@
+{
+  "name": "CasesPage",
+  "namespace": "Cases Page",
+  "packageName": "hu.ibello.homework1.pages",
+  "frame": {
+    "locators": []
+  },
+  "elements": [
+    {
+      "fieldName": "caseLink",
+      "xpath": "/html[1]/body[1]/div[1]/router-view[1]/div[1]/div[2]/table[1]/tbody[1]/tr[1]/td[1]/a[1]",
+      "arguments": [],
+      "selected": true,
+      "kind": "CLICKABLE",
+      "relations": [],
+      "positions": [],
+      "by": "CSS_SELECTOR",
+      "selector": "tbody tr a"
+    },
+    {
+      "fieldName": "personField",
+      "selected": true,
+      "kind": "ELEMENT",
+      "relations": [],
+      "positions": [],
+      "by": "CSS_SELECTOR",
+      "selector": "tbody tr td:nth-child(4)"
+    },
+    {
+      "fieldName": "newCaseButton",
+      "xpath": "/html[1]/body[1]/div[1]/router-view[1]/div[1]/div[2]/div[1]/a[1]",
+      "selected": true,
+      "kind": "CLICKABLE",
+      "relations": [],
+      "positions": [],
+      "by": "CSS_SELECTOR",
+      "selector": ".buttons a"
+    }
+  ],
+  "methods": [
+    {
+      "name": "I see that the page is opened",
+      "selected": true,
+      "actions": [],
+      "expectations": [
+        {
+          "soft": false,
+          "negate": false,
+          "kind": "displayed",
+          "target": "newCaseButton"
+        }
+      ]
+    },
+    {
+      "name": "I see that the first person is ${0}",
+      "selected": true,
+      "actions": [],
+      "expectations": [
+        {
+          "soft": false,
+          "negate": false,
+          "kind": "text",
+          "target": "personField"
+        }
+      ]
+    },
+    {
+      "name": "I open the first case",
+      "selected": true,
+      "actions": [
+        {
+          "kind": "click",
+          "target": "caseLink"
+        }
+      ],
+      "expectations": []
+    }
+  ]
+}
