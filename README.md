@@ -2,11 +2,11 @@
 
 Egy tesztautomatizálós mintafeladatot kell elkészítened. Ehhez a következő eszközökre lesz szükséged:
 
-- [ibello](https://ibello.hu/downloads)  [(telepítési útmutató)](https://ibello.hu/documentation-installation)
-- egy IDE java támogatással (Eclipse, Intellij, ...)
-- [github](https://github.com/) fiók
-- [git](https://git-scm.com/download/win)
-- [Apache Maven](https://maven.apache.org/download.cgi)
+- [ibello](https://ibello.hu/downloads) ([telepítési útmutató](https://ibello.hu/documentation-installation)),
+- egy IDE java támogatással (Eclipse, Intellij, ...),
+- [github](https://github.com/) fiók,
+- [git](https://git-scm.com/download/win),
+- [Apache Maven](https://maven.apache.org/download.cgi) ([telepítési útmutató](https://maven.apache.org/install.html)).
 
 Klónozd a saját gépedre a [homework1](https://github.com/ibellotesting/homework1) repót,
 ([how to clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)),
