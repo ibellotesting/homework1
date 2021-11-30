@@ -6,11 +6,19 @@ Egy tesztautomatizálós mintafeladatot kell elkészítened. Ehhez a következő
 - egy IDE java támogatással (Eclipse, Intellij, ...)
 - [github](https://github.com/) fiók
 - [git](https://git-scm.com/download/win)
-- [Maven](https://maven.apache.org/download.cgi)
+- [Apache Maven](https://maven.apache.org/download.cgi)
 
 Klónozd a saját gépedre a [homework1](https://github.com/ibellotesting/homework1) repót,
 ([how to clone](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository)),
-itt már kezdhetsz is dolgozni. A feladatot mi már elkezdtük, neked be kell fejezned.
+itt már kezdhetsz is dolgozni. A feladat egy egyszerű teszt elkészítése lesz, ami egy webalkalmazás néhány oldalát ellenőrzi végig.
+A lépései:
+
+- alkalmazás megnyitása
+- egy táblázat első sorának ellenőrzése
+- a táblázat első sorának megnyitása és egy adat átírása, majd elmentése,
+- a táblázat első sorának újbóli ellenőrzése.
+
+A feladatot mi már elkezdtük, neked be kell fejezned. Keresd a `TODO` sorokat a meglévő kódban, azok segítenek!
 Létre kell majd hoznod egy második oldal-leírót (page object) is.
 Segítségedre lesz az [ibello API dokumentáció](https://ibello.hu/documentation-api),
 illetve az [első lépések dokumentáció](https://ibello.hu/documentation-first-steps).
