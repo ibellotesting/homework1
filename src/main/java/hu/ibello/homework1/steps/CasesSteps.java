@@ -9,7 +9,7 @@ public class CasesSteps extends StepLibrary {
 
 	private CasesPage cases;
 	
-	// TODO insert CasePage-type variable here
+	// TODO insert a field here with the type 'CasePage'
 	
 	public void I_open_the_page() {
 		cases.I_open_the_page();
@@ -25,7 +25,7 @@ public class CasesSteps extends StepLibrary {
 		// TODO verify that the page was opened
 		// TODO enter the name into the person field
 		// TODO save the page
-		// TODO validate that the current page is the cases
+		// TODO validate that the current page is the 'cases'
 	}
 	
 }
