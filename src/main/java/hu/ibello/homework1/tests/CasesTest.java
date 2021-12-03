@@ -1,6 +1,7 @@
 package hu.ibello.homework1.tests;
 
 import hu.ibello.core.Specification;
+import hu.ibello.core.Test;
 import hu.ibello.homework1.steps.CasesSteps;
 
 @Specification
