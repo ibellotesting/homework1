@@ -32,7 +32,7 @@ illetve az [első lépések dokumentáció](https://ibello.hu/documentation-firs
 Ha elkészültél a munkával, próbáld ki, hogy fut-e a teszted! A "homework1" mappában futtasd a következő parancsokat:
 
 ```
-mvn classes
+mvn compile
 ibello run
 ```
 
