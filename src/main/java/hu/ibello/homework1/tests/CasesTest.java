@@ -8,6 +8,7 @@ public class CasesTest {
 
 	private CasesSteps cases;
 	
+	@Test
 	public void change_person_name() {
 		cases.I_open_the_page();
 		cases.I_see_that_the_first_person_is_$("Kosztolányi Dezső");
